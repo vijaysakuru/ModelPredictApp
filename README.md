@@ -1,3 +1,8 @@
+# Description 
+Developed a full-stack application using Python for the backend and React for the frontend.
+Implemented advanced machine learning models to analyze and predict insurance data.
+Developed interactive UI components to visualize and handle data interactions.
+
 # Backend
     pip install -r requirements.txt
     
