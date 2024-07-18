@@ -1,0 +1,64 @@
+.login-form {
+    background: white;  /* White background for the form */
+    border: 2px solid #ffffff;  /* White border, change if you need more contrast */
+    border-radius: 8px;  /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);  /* Shadow for depth */
+    padding: 20px;  /* Inner spacing */
+    margin: auto;  /* Center the form on the page */
+    width: 90%;  /* Relative width */
+    max-width: 460px;  /* Maximum width to maintain form dimensions */
+    text-align: center;  /* Center align the text and form elements */
+    display: flex;  /* Use flexbox for layout */
+    flex-direction: column;  /* Stack form elements vertically */
+    align-items: center;  /* Align children to the center horizontally */
+    justify-content: center;  /* Align children to the center vertically */
+    margin-top:140px;
+}
+
+.login-form input, .login-form button {
+    width: 100%;  /* Full width of the form container */
+    padding: 10px;  /* Padding for input fields and button */
+    margin-top: 10px;  /* Space between form elements */
+    border: 2px solid #ddd;  /* Border for input fields */
+    border-radius: 4px;  /* Rounded borders for input fields */
+    font-size: 16px;  /* Text size */
+}
+
+.login-form input:focus {
+    border-color: #805ad5;  /* Focus color for input fields */
+    outline: none;  /* Remove default focus outline */
+}
+
+.login-form button {
+    background-color: #4CAF50;  /* Button color */
+    color: white;  /* Button text color */
+    border: none;  /* No border for the button */
+    cursor: pointer;  /* Pointer cursor on hover */
+    transition: background 0.3s;  /* Smooth transition for hover effect */
+}
+
+.login-form button:hover {
+    background-color: #367c2b;  /* Darker green when hovered */
+}
+
+.Toastify__close-button {
+    width: 50px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    padding: 0; /* Remove padding */
+    margin-left: 10px; /* Add margin if needed */
+    font-size: 14px; /* Adjust font size */
+}
+
+.login-page {
+    background: url('../images/home_highresolution.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: right 85px top 2px;
+  }

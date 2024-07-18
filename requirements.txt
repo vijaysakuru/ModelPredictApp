@@ -1,0 +1,9 @@
+Django>=3.2
+djangorestframework>=3.12
+django-cors-headers
+pandas>=1.2.0
+numpy>=1.19.0
+scikit-learn>=0.24.0
+matplotlib>=3.3.0
+flake8>=3.9.0
+psycopg2

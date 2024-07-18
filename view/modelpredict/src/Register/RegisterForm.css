@@ -1,0 +1,129 @@
+/* General resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .register-page {
+    background: url('../images/home_highresolution.png') no-repeat center center fixed; 
+    background-color: #0e293e;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: right 85px top 2px;
+  }
+  
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #0e293e;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .App {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    width: 100%;
+    max-width: 1300px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* Input styling */
+  input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    border-color: #805ad5;
+    outline: none;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #367c2b;
+  }
+  
+  /* Additional visual tweaks */
+  ::placeholder {
+    color: #bbb;
+  }
+
+  .register-form {
+    background: white;
+    border: 2px solid #ffffff; /* Adds a white border */
+    border-radius: 8px; /* Rounds the corners */
+    padding: 20px; /* Space inside the form */
+    margin: auto; /* Centers the form */
+    width: 90%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width */
+    text-align: center; /* Center aligns the text */
+    display: flex; /* Using flexbox for internal styling */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center-align children horizontally */
+    justify-content: center; /* Center-align children vertically */
+    margin-top:100px;
+  }
+
+.home-button {
+    position: absolute;
+    top: 25px;  /* Adjust as needed to move up */
+    left: 20px;  /* Adjust as needed to move left */
+    margin: 0;  /* Removes any default margin */
+    padding: 8px 16px;  /* Adjust padding to make the button smaller */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 8%;
+    margin-right:500px;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8rem; 
+  margin-top: 4px; 
+}
+
+.error {
+  border: 2px solid red;
+}
+  

@@ -1,0 +1,63 @@
+/* HomeForm.css */
+.home-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/home_highresolution.png'); /* Ensure the path is correct */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: flex;
+    flex-direction: row; /* Align items horizontally */
+    align-items: flex-start; /* Align items at the top */
+    justify-content: flex-start; /* Align items to the left */
+    background-position: right 85px top 2px;
+}
+
+.home-button {
+    width: auto; /* Allows the button to fit the text */
+    height: 40px; /* Fixed height for each button */
+    padding: 8px 20px;  /* Uniform padding inside the button */
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 14px; /* Font size explicitly set */
+    margin-right: 20px; /* Space between buttons */
+    font-family: Arial, sans-serif; /* Ensure font family is consistent */
+    box-sizing: border-box; /* Include padding and border in the width */
+    display: inline-block; /* Ensures buttons are not treated as block elements */
+    position: absolute; /* Absolute positioning */
+    top: 20px; /* Fixed top position */
+    left:90%;
+    right: 1%; /* Right position based on percentage to ensure uniform closing */
+}
+
+.home-button:last-child {
+    margin-right: 0; /* Removes margin from the last button */
+    padding-left: 30px;
+    padding-right: 30px;
+    left:79%;
+    right: 13%; /* Adjusting the right percentage for uniform movement */
+}
+
+.home-button:hover {
+    background-color: #367c2b; /* Darker green on hover */
+}
+
+
+.main-head {
+    position: absolute; /* Absolute positioning relative to nearest positioned ancestor */
+    top: 51%; /* Center vertically */
+    left: 65%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust the exact center of the element */
+    color: white; /* White text color */
+    font-size: 50px; /* Large font size */
+    font-weight: bold; /* Bold font weight */
+    text-align: center; /* Ensure the text is centered if it wraps */
+}
+
+.ul-class{
+    margin-left: 10px;
+    font-size:20px;
+}

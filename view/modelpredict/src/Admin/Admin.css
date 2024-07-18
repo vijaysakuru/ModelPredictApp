@@ -1,0 +1,99 @@
+.admin-page {
+    position: relative;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background: url('../images/home_highresolution.png') no-repeat center center fixed;
+    background-position: right 85px top 2px;
+    background-size: cover; /* Cover the full area without repeating */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the content vertically and horizontally */
+}
+
+.admin-wrapper {
+    position: relative;
+    max-width: 1000px;  /* Appropriate width to handle content */
+    margin: 40px auto;  /* Increased margin for more space */
+    padding: 40px 20px 20px 20px; /* Increased top padding to ensure no cut-off */
+    text-align: center;
+    box-sizing: border-box;  /* Ensures padding does not add to the width */
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent to enhance background visibility */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.admin-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left; /* Align text to left for clarity */
+    overflow-y: auto;  /* Allows scrolling */
+    max-height: 600px;  /* Maximum height before scrolling */
+}
+
+.admin-title {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.admin-list {
+    width: 100%;
+}
+
+.admin-heading {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Evenly distribute space */
+    gap: 20px; /* More space between columns */
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc; /* Adds a separator */
+    color: black;
+}
+
+.admin-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    align-items: center;
+    margin-top: 15px; /* Added space between rows */
+    color: black;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+.back-link-admin {
+    position: absolute;
+    top: 10px; /* Position at the top of the container */
+    left: 20px; /* Margin from the left edge */
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    top: 2%;
+    right:2%;
+    left:92%;
+}
+
+.back-link-admin:hover {
+    background-color: #367c2b; /* Darker green on hover */
+}
